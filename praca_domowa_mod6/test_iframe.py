@@ -20,5 +20,5 @@ class Tests(unittest.TestCase):
 
     def test_iframe_click_first_button(self):
         iframe_page.click_iframe_tab(self.driver)
-        iframe_page.click_button1(self.driver)
+        self.assertTrue(iframe_page.click_button1(self.driver))
         self.driver.save_screenshot('screenshot.png')
