@@ -1,4 +1,4 @@
-from helpers.first_test_mod6_lesson2 import *
+from helpers.support_functions import *
 
 iframe_tab = 'iframe-header'
 iframe_main = 'iframe'
