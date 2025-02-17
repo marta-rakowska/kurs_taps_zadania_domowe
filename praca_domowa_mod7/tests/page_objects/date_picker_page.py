@@ -1,5 +1,4 @@
 from helpers.support_functions import *
-import datetime
 
 date_picker_tab = '//*[@id="datepicker-header"]'
 date_picker_content = '//*[@id="datepicker-content"]'
